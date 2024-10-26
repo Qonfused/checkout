@@ -1,5 +1,8 @@
 [![Build and Test](https://github.com/actions/checkout/actions/workflows/test.yml/badge.svg)](https://github.com/actions/checkout/actions/workflows/test.yml)
 
+> ![NOTE]
+> This is a fork of the [actions/checkout](https://github.com/actions/checkout) GitHub action. This re-implements [#388](https://github.com/actions/checkout/pull/388) to allow checkout paths to lie outside of the `$GITHUB_WORKSPACE` directory. This is useful for checking out a repository onto a different drive or partition (without using a symlink).
+
 # Checkout V4
 
 This action checks-out your repository under `$GITHUB_WORKSPACE`, so your workflow can access it.

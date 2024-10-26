@@ -1,5 +1,5 @@
-name: 'Checkout'
-description: 'Checkout a Git repository at a particular version'
+name: 'Checkout-388'
+description: 'Fork of actions/checkout#388 allowing for relative path arguments'
 inputs:
   repository:
     description: 'Repository name with owner. For example, actions/checkout'
