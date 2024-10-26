@@ -71,7 +71,7 @@ Please refer to the [release page](https://github.com/actions/checkout/releases/
     # Default: true
     persist-credentials: ''
 
-    # Relative path under $GITHUB_WORKSPACE to place the repository
+    # Path relative to $GITHUB_WORKSPACE to place the repository
     path: ''
 
     # Whether to execute `git clean -ffdx && git reset --hard HEAD` before fetching
